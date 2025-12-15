@@ -52,7 +52,7 @@ pipeline {
 
         stage('Push Image to PROD Repo') {
             when {
-                branch 'master'
+                branch 'main'
             }
             steps {
                 sh '''
