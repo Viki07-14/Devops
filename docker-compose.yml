@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    image: online-app
+    ports:
+      - "80:80"
+    restart: always
